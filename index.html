@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stephen's Crystal Collector Game</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+
+
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center">
+                <h1>Stephen's Crystal Collector Game</h1>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="border bg-light col-md-10" id="instructionsbox">
+                <h3>Instructions:</h3>
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                    your total score.</p>
+                <p>You win the game by matching your total score to the random number, you lose the game if your total
+                    score goes above the randome number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts the game will change the values of each crystal.</p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="bg-white col-md-3" id="goalnumsection"></div>
+            <div class="bg-white col-md-1"></div>
+            <div class="bg-white col-md-2" id="tallybox">
+                <div id="winorlosesection"></div>
+                <div id="winssection"> </div>
+                <div id="lossessection"> </div>
+            </div>
+            <div class="bg-white col-md-1"></div>
+            <div class="bg-white col-md-3" id="currentscorebox"></div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="btn col-md-2 jewel" id="image1section"><img id="jewel1" src="./assets/images/blue.png"
+                    alt=Jewel1></div>
+            <div class="btn col-md-2 jewel" id="image2section"><img id="jewel2" src="./assets/images/green.png"
+                    alt=Jewel2></div>
+            <div class="btn col-md-2 jewel" id="image3section"><img id="jewel3" src="./assets/images/red.png"
+                    alt=Jewel3></div>
+            <div class="btn col-md-2 jewel" id="image4section"><img id="jewel4" src="./assets/images/yellow.png"
+                    alt=Jewel4></div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</html>
